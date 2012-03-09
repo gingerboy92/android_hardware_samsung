@@ -15,7 +15,7 @@
 #
 
 ifeq ($(TARGET_BOARD_PLATFORM),exynos4)
-common_exynos4_dirs := libgralloc_ump libhdmi libfimc libhwcomposer libhwconverter libswconverter libcamera
+common_exynos4_dirs := libgralloc_ump libUMP libhdmi libfimc libhwcomposer libhwconverter libswconverter libcamera
 exynos4210_dirs := $(common_exynos4_dirs) libs5pjpeg libfimg3x
 
 ifeq ($(CAMERA_USE_DIGITALZOOM), true)
