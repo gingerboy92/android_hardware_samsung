@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += \
     libfimc \
     libfimg \
     gralloc.exynos4 \
-    libUMP \
     hwcomposer.exynos4 \
     libhwconverter \
     libswconverter \
