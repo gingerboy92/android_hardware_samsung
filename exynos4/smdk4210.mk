@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(TARGET_BOARD_PLATFORM),exynos4)
-
 # HAL
 PRODUCT_PACKAGES += \
     camera.exynos4 \
@@ -67,5 +65,3 @@ PRODUCT_PACKAGES += \
     libOMX.SEC.M4V.Encoder \
     libSEC_OMX_Adec \
     libOMX.SEC.MP3.Decoder \
-
-endif

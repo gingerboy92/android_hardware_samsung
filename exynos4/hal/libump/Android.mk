@@ -31,8 +31,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libUMP
 LOCAL_SRC_FILES := $(UMP_SRCS)
 LOCAL_C_INCLUDES:= \
-	hardware/samsung/exynos4/ump/include \
-	hardware/samsung/exynos4/ump/include/ump
+	hardware/samsung/exynos4/hal/libump/include \
+	hardware/samsung/exynos4/hal/libump/include/ump
 LOCAL_MODULE_TAGS := eng
 LOCAL_MODULE_PATH := $(TARGET_OUT_STATIC_LIBRARIES)/
 include $(BUILD_STATIC_LIBRARY)
