@@ -50,6 +50,7 @@ endif
 
 # OMX
 PRODUCT_PACKAGES += \
+    libstagefrighthw \
     libcsc \
     libsecbasecomponent \
     libsecosal \
