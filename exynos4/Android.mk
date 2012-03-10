@@ -13,5 +13,8 @@
 # limitations under the License.
 
 ifeq ($(TARGET_BOARD_PLATFORM),exynos4)
-    include $(call all-subdir-makefiles)
+
+BOARD_HAL_PATH := hardware/samsung/exynos4/hal
+include $(call all-subdir-makefiles)
+
 endif
