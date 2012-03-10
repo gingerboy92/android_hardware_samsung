@@ -15,6 +15,8 @@
 ifeq ($(TARGET_BOARD_PLATFORM),exynos4)
 
 BOARD_HAL_PATH := hardware/samsung/exynos4/hal
+BOARD_HMM_PATH := hardware/samsung/exynos4/multimedia
+
 include $(call all-subdir-makefiles)
 
 endif
