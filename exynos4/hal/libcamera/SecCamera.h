@@ -98,12 +98,34 @@ namespace android {
 #define JOIN(x, y) JOIN_AGAIN(x, y)
 #define JOIN_AGAIN(x, y) x ## y
 
-#define FRONT_CAM S5K6A3
-#define BACK_CAM S5K4BA
+#define FRONT_CAM S5K5BAFX
+#define BACK_CAM M5MO
 
 #if !defined (FRONT_CAM) || !defined(BACK_CAM)
 #error "Please define the Camera module"
 #endif
+
+#define M5MO_PREVIEW_WIDTH             640
+#define M5MO_PREVIEW_HEIGHT            480
+#define M5MO_SNAPSHOT_WIDTH            3264
+#define M5MO_SNAPSHOT_HEIGHT           2448
+#define M5MO_THUMBNAIL_WIDTH           320
+#define M5MO_THUMBNAIL_HEIGHT          240
+#define M5MO_THUMBNAIL_BPP             16
+#define M5MO_FPS                       30
+/* focal length of 3.43mm */
+#define M5MO_FOCAL_LENGTH              343
+
+#define S5K5BAFX_PREVIEW_WIDTH           480
+#define S5K5BAFX_PREVIEW_HEIGHT          480
+#define S5K5BAFX_SNAPSHOT_WIDTH          1392
+#define S5K5BAFX_SNAPSHOT_HEIGHT         1392
+#define S5K5BAFX_THUMBNAIL_WIDTH         160
+#define S5K5BAFX_THUMBNAIL_HEIGHT        120
+#define S5K5BAFX_THUMBNAIL_BPP           16
+#define S5K5BAFX_FPS                     30
+/* focal length of 0.9mm */
+#define S5K5BAFX_FOCAL_LENGTH            90
 
 #define S5K4BA_PREVIEW_WIDTH            640
 #define S5K4BA_PREVIEW_HEIGHT           480
@@ -120,32 +142,14 @@ namespace android {
 #define S5K4BA_FLAG_HW_UPDOWN_MIRROR    TRUE
 #define S5K4BA_FPS                       30
 
-
-#define M5MO_PREVIEW_WIDTH             640
-#define M5MO_PREVIEW_HEIGHT            480
-#define M5MO_SNAPSHOT_WIDTH            3264
-#define M5MO_SNAPSHOT_HEIGHT           2448
-
-#define M5MO_THUMBNAIL_WIDTH           320
-#define M5MO_THUMBNAIL_HEIGHT          240
-#define M5MO_THUMBNAIL_BPP             16
-
-#define M5MO_FPS                       30
-
-/* focal length of 3.43mm */
-#define M5MO_FOCAL_LENGTH              343
-
 #define S5K6A3_PREVIEW_WIDTH           480
 #define S5K6A3_PREVIEW_HEIGHT          480
 #define S5K6A3_SNAPSHOT_WIDTH          1392
 #define S5K6A3_SNAPSHOT_HEIGHT         1392
-
 #define S5K6A3_THUMBNAIL_WIDTH         160
 #define S5K6A3_THUMBNAIL_HEIGHT        120
 #define S5K6A3_THUMBNAIL_BPP           16
-
 #define S5K6A3_FPS                     30
-
 /* focal length of 0.9mm */
 #define S5K6A3_FOCAL_LENGTH            90
 
