@@ -36,6 +36,6 @@ LOCAL_C_INCLUDES := \
 	$(EXYNOS_OMX_COMPONENT)/common \
 	$(EXYNOS_OMX_COMPONENT)/video/dec \
 	$(TARGET_OUT_HEADERS)/$(EXYNOS_OMX_COPY_HEADERS_TO) \
-	../../../../hal/include
+	$(LOCAL_PATH)/../../../../hal/include
 
 include $(BUILD_STATIC_LIBRARY)

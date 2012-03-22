@@ -25,6 +25,7 @@
  */
 
 #include "SecHWCUtils.h"
+#include "gralloc_priv.h"
 
 #ifdef BOARD_USE_V4L2_ION
 #define V4L2_BUF_TYPE_OUTPUT V4L2_BUF_TYPE_VIDEO_OUTPUT_MPLANE
