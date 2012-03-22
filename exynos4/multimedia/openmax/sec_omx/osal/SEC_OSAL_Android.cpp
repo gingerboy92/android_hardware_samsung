@@ -37,6 +37,8 @@
 #include <hardware/hardware.h>
 #include <media/stagefright/MetadataBufferType.h>
 
+#include "gralloc_priv.h"
+
 #include "SEC_OSAL_Semaphore.h"
 #include "SEC_OMX_Baseport.h"
 #include "SEC_OMX_Basecomponent.h"

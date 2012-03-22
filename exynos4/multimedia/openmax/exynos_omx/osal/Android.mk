@@ -29,11 +29,13 @@ LOCAL_SHARED_LIBRARIES := libcutils libutils \
 	libbinder \
 	libmedia
 
-LOCAL_C_INCLUDES := $(EXYNOS_OMX_INC)/khronos \
+LOCAL_C_INCLUDES := \
+    $(EXYNOS_OMX_INC)/khronos \
 	$(EXYNOS_OMX_INC)/exynos \
 	$(EXYNOS_OMX_TOP)/osal \
 	$(EXYNOS_OMX_COMPONENT)/common \
 	$(EXYNOS_OMX_COMPONENT)/video/dec \
-	$(TARGET_OUT_HEADERS)/$(EXYNOS_OMX_COPY_HEADERS_TO)
+	$(TARGET_OUT_HEADERS)/$(EXYNOS_OMX_COPY_HEADERS_TO) \
+	../../../../hal/include
 
 include $(BUILD_STATIC_LIBRARY)

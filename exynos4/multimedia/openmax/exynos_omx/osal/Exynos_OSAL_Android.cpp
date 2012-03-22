@@ -37,6 +37,8 @@
 #include <hardware/hardware.h>
 #include <media/stagefright/MetadataBufferType.h>
 
+#include "gralloc_priv.h"
+
 #include "Exynos_OSAL_Semaphore.h"
 #include "Exynos_OMX_Baseport.h"
 #include "Exynos_OMX_Basecomponent.h"
